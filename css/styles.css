@@ -816,6 +816,10 @@ img {
 
 }
 
+.modal-span {
+    display: inline-flex;
+}
+
 .policy-label a {
 
     color: #4D5AE5;
