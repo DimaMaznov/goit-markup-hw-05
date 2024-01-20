@@ -409,7 +409,11 @@
                         </a>
                     </li>
                 </ul>
-
+            </div>
+            <div class="subscribe-field">
+                <p class="footer-subscribe">Subscribe
+                </p>
+                <input class="input-subscribe" type="text" name="subscribe" />
             </div>
         </div>
     </footer>
@@ -453,17 +457,19 @@
                         </svg>
                     </div>
                 </div>
-                <div class="modal-area">
+                <div class="textarea">
                     <label class="modal-label" for="textarea">Comment</label>
                     <textarea class="text-input" name="comment" placeholder="Text input" id="textarea"></textarea>
                 </div>
-                <div class="modal-area">
-                    <input class="checkbox" type="checkbox" name="policy" id="policy" value="true" />
-                    <label class="policy-label" for="policy"> <span><svg class="checkbox-icon" width="16" height="16">
-                                <use href="./images/icons.svg#icon-defaultt">
+                <div class="modal-area-checkbox">
+                    <input class="checkbox visually-hidden" type="checkbox" name="policy" id="policy" value="true" />
+                    <label class="policy-label" for="policy"> <span><svg class="checkbox-icon" width="10" height="8">
+                                <use href="./images/icons.svg#icon-vector">
                                 </use>
-                            </svg> </span> I accept the terms and conditions of the <a href="/">Privacy
+                            </svg> </span> I accept the terms and conditions of the <a href="/"> Privacy
                             Policy</a></label>
+                </div>
+                <div class="flex-modal-btn"><button class="modal-btn" type="submit">Send</button>
                 </div>
             </form>
         </div>
