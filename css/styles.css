@@ -841,7 +841,6 @@ img {
 
 .policy-label span {
     fill: transparent;
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     margin-right: 12px;
