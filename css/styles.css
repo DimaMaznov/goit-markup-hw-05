@@ -470,7 +470,7 @@ ul {
 }
 
 
-.footer-subscribe {
+.footer-subscribe-p {
     color: #FFF;
     font-family: Roboto;
     font-size: 16px;
@@ -481,26 +481,33 @@ ul {
     margin-bottom: 16px;
 }
 
+.footer-form {
+    display: flex;
+}
+
+.footer-label {
+    gap: 24px
+}
+
 .input-subscribe {
     width: 264px;
     height: 40px;
-    padding: 8px 212px 8px 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
     background-color: transparent;
     outline: none;
     border-radius: 4px;
     border: 1px solid #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
 }
 
 
 .input-subscribe::placeholder {
     color: #FFF;
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2;
-    letter-spacing: 0.04em;
+
 }
 
 .btn-subscribe {
@@ -517,15 +524,14 @@ ul {
     letter-spacing: 0.04em;
     border-radius: 4px;
     background: #4D5AE5;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
-    padding: 8px 24px;
     border: none;
-    margin-left: 24px;
-    gap: 16px;
 }
 
-
+.footer-subscribe {
+    margin-left: 16px;
+}
 
 
 
